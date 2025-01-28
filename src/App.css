@@ -1,0 +1,68 @@
+body{
+    background: #FACD3E;
+    display: grid;
+    place-items: center;
+}
+.main_container{
+width: 667px;
+height: 899px;
+border: 3px solid black;
+border-radius: 22px;
+background: #ffffff;
+
+}
+.main_container h1{
+    margin-left: 50px;
+}
+.task_container{
+    width: 577px;
+    height: 52px;
+    margin-left: 50px;
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task_container input{
+    width:501px;
+    height: 50px;
+    border-radius:15px ;
+}
+.task_container button{
+    width:52px;
+    height: 52px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #FACD3E;
+    border-radius: 7px;
+    border: none;
+}
+
+.DeleteButton{
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+ol{
+    width: 400px;
+    /* border: 1px solid black; */
+    margin-left: 90px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+li{
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 100%;
+    /* border: 1px solid red; */
+    box-shadow: 1px 1px 1px 1px yellow;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
