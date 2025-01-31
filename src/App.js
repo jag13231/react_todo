@@ -2,7 +2,9 @@ import Todolist from "./Components/Todolist"
 function App() {
   return (
    <>
+   
    <Todolist/>
+
    </>
   );
 }
